@@ -1,0 +1,58 @@
+#raw_counts {
+    width: 800px;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+#normalized {
+    width: 800px;
+    height: 600px;
+}
+
+#title {
+    color: black;
+    font-size: large;
+    background-color: beige;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Stack divs vertically */
+    align-items: center; /* Center horizontally */
+    margin-bottom: 20px;
+    background-color: beige;
+  }
+  
+  body > div { /* Select direct children divs of body */
+    width: fit-content; /* or specify a width, like width: 50%; */
+  }
+/* Legend background styles */
+.info.legend {
+    background-color: rgba(255, 255, 255, 0.7); /* White background with some transparency */
+    border: 1px solid #ccc; /* Border around the legend */
+    padding: 5px; /* Some padding around the legend content */
+    font-size: 14px; /* Adjust font size if needed */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow for a floating effect */
+}
+
+/* Style the color boxes in the legend */
+.info.legend i {
+    border-radius: 3px; /* Round the corners of the color boxes */
+    margin-right: 5px; /* Space between color box and label */
+}
+
+/* Optional: Add some style for the legend title */
+.info.legend strong {
+    font-size: 16px; /* Larger font size for the title */
+    color: #333; /* Dark color for the title text */
+    margin-bottom: 8px; /* Space below the title */
+    display: block; /* Ensures title is on its own line */
+}
+
+/* Adjust spacing between the color boxes and their labels */
+.info.legend i {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
