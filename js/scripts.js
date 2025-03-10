@@ -130,7 +130,7 @@ function symbolizeStates2(states, dams) {
                 color: "white"
             }
         })
-        .bindPopup(`State: ${state.properties.NAME}<br>Normalized Dam Count: ${normalizedCount.toFixed(2)}`)
+        .bindPopup(`County: ${state.properties.NAME}<br>Normalized Dam Count: ${normalizedCount.toFixed(2)}`)
         .addTo(map2);
     });
 
